@@ -30,7 +30,7 @@
 	<h5>
 		<a href="">回到主页</a>
 	</h5>
-	<h2>搜索结果</h2>
+	<h2>search result</h2>
 	<s:iterator value="books" var="c">
 		<s:property value="#c.id" />
 		<s:property value="#c.name" />
