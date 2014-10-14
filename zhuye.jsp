@@ -28,7 +28,7 @@
 }
 </style>
 <body class="bg" background="images/1.jpg">
-	<h1>搜书</h1>
+	<h1>搜索图书</h1>
 	<form action="search">
 		<input type="text" name="au" maxlength="100" placeholder="请输入作者名">
 		<input type="submit" value="搜索">

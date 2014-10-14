@@ -27,9 +27,9 @@
 }
 </style>
 <body class="bg" background="images/2.jpg">
-	<h4>
+	<h5>
 		<a href="">回到主页</a>
-	</h4>
+	</h5>
 	<h2>搜索结果</h2>
 	<s:iterator value="books" var="c">
 		<s:property value="#c.id" />
