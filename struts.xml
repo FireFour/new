@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="GBK" />
+	<package name="web" namespace="/" extends="struts-default">
+		<default-action-ref name="index" />
+		<action name="index" class="web.BookAction" method="list">
+			<result name="success">/zhuye.jsp</result>
+		</action>
+		<action name="search" class="web.BookAction" method="search">
+			<result name="success">/result.jsp</result>
+		</action>
+		<action name="one" class="web.BookAction" method="one">
+			<result name="success">/one.jsp</result>
+		</action>
+		<action name="delete" class="web.BookAction" method="delete">
+			<result name="success">/delete-success.jsp</result>
+		</action>
+    </package>
+</struts>    
