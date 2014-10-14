@@ -55,7 +55,7 @@
 
 	<h2>作者信息</h2>
 	<div class="item2">
-		姓名:&nbsp;&nbsp;&nbsp;&nbsp;
+		name:&nbsp;&nbsp;&nbsp;&nbsp;
 		<s:property value="book.author" />
 	</div>
 	<div class="item2">
